@@ -1,4 +1,5 @@
-<p align="center"><a href="https://t.me/Lily_x_bots"><img src"[https://te.legra.ph/file/8e779ca298fb47f368f2b.jpg](https://graph.org/file/8d771cd45a1bc53254501.jpg)"></a></p>      
+# VENOM X BAN ALL
+<p align="center"><img src="https://graph.org/file/8d771cd45a1bc53254501.jpg" alt="ICON" width="250" height="250"/></p>
   
            
            ─「 ᎠᎬᏢᏞϴᎽ ϴΝ ᎻᎬᎡϴᏦႮ 」─      
