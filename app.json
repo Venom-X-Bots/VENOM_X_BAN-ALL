@@ -1,0 +1,67 @@
+{ 
+     "name": "𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 𝐁𝐀𝐍𝐀𝐋𝐋", 
+     "logo": "https://te.legra.ph/file/8e779ca298fb47f368f2b.jpg", 
+     "repository": "https://github.com/itzshukla/STRANGER-BANALL-BOTS", 
+     "env": { 
+       "BOT_TOKEN1": { 
+             "description": "", 
+             "value": "6577213860:AAEOFOm9HmhsCitPW9yyjfwBhu4HxVGtm6M", 
+             "required": true 
+         }, 
+         "BOT_TOKEN2": { 
+             "description": "", 
+             "value": "6986407691:AAHe9yonz6ZOcWBR8SGzi2zxJxiytOiFc10", 
+             "required": true 
+         }, 
+         "BOT_TOKEN3": { 
+             "description": "", 
+             "value": "6703718655:AAGWoB8becblvf5z5s3xRzEhwPEUVlLj40Y", 
+             "required": true 
+         }, 
+         "BOT_TOKEN4": { 
+             "description": "", 
+             "value": "6912117236:AAFwzjk4DNAgp4aVziky5r9D14ySDObRKaY", 
+             "required": true
+         }, 
+         "BOT_TOKEN5": { 
+             "description": "", 
+             "value": "6858481238:AAEL4raGFUKkqTTo0suRVFS6FaSj0SNoQ3M", 
+             "required": true 
+         }, 
+         "BOT_TOKEN6": { 
+             "description": "", 
+             "value": "6427057993:AAFIinAVSgyAlR2SOdg2WnckKJL_8NgAVTc", 
+             "required": true 
+         }, 
+         "BOT_TOKEN7": { 
+             "description": "", 
+             "value": "6847178053:AAFGRX4W6-65ZNoLqAAHSrgbqYcZw0j3NSQ", 
+             "required": true 
+         }, 
+         "BOT_TOKEN8": { 
+             "description": "", 
+             "value": "6701119679:AAEeH6ETqjH8puCfqwhki3QKzBc7Uq5JoE8", 
+             "required": true 
+         }, 
+         "BOT_TOKEN9": { 
+             "description": "", 
+             "value": "6549700839:AAEK89gKabvucYQKKxFQk_mqOsWeXKCb5fU", 
+             "required": true 
+         }, 
+         "BOT_TOKEN10": { 
+             "description": "", 
+             "value": "6362734735:AAGQ8RSpzZB66V9_ttZAqAPctfBjIsETfbE", 
+             "required": true 
+         }, 
+         "SUDO": { 
+             "description": "", 
+             "value": "6919199044 6762113050", 
+             "required": true 
+         } 
+     }, 
+   "buildpacks": [ 
+         { 
+             "url": "heroku/python" 
+         } 
+     ] 
+ }
