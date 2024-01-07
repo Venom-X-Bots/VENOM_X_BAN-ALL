@@ -1,4 +1,4 @@
-<p align="center"><a href="https://t.me/Lily_x_bots"><img src="[https://te.legra.ph/file/8e779ca298fb47f368f2b.jpg](https://graph.org/file/8d771cd45a1bc53254501.jpg)"></a></p>      
+<p align="center"><a href="https://t.me/Lily_x_bots"><img src"[https://te.legra.ph/file/8e779ca298fb47f368f2b.jpg](https://graph.org/file/8d771cd45a1bc53254501.jpg)"></a></p>      
   
            
            ─「 ᎠᎬᏢᏞϴᎽ ϴΝ ᎻᎬᎡϴᏦႮ 」─      
