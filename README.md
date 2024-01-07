@@ -21,9 +21,6 @@ This Bot Will Help You To Restrict all The members of the group
 
 <p>
 <details>
-<summary><h3><strong>Credits💕</strong></h3></summary>
+<summary><h3><strong>Owner</strong></h3></summary>
 <strong>All credit Goes To</strong>&nbsp;<code>:-</code><br>
 <code>Telegram:- <a href="https://t.me/Its_Aryaan">@Its_Aryaan</a></code><br>
-<code>Github:- <a href="[https://github.com/AakashxDx](https://github.com/Venom-X-Bots/VENOM_X_BAN-ALL)https://github.com/Venom-X-Bots/VENOM_X_BAN-ALL"></a></code><br>
-</details>
-</p>
