@@ -1,1 +1,1 @@
-worker: python3 lily.py
+worker: python3 lily
