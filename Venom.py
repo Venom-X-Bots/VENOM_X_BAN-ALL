@@ -37,28 +37,28 @@ RIGHTS = ChatBannedRights(
 )
 
 logging.basicConfig(level=logging.INFO)
-Venom1 = TelegramClient('Venom1', 20310034, "e0d2c11f4ba291ce596868e73df87519").start(bot_token=BOT_TOKEN1)
-Venom2 = TelegramClient('Venom2', 20310034, "e0d2c11f4ba291ce596868e73df87519").start(bot_token=BOT_TOKEN2)
-Venom3 = TelegramClient('Venom3', 20310034, "e0d2c11f4ba291ce596868e73df87519").start(bot_token=BOT_TOKEN3)
-Venom4 = TelegramClient('Venom4', 20310034, "e0d2c11f4ba291ce596868e73df87519").start(bot_token=BOT_TOKEN4)
-Venom5 = TelegramClient('Venom5', 20310034, "e0d2c11f4ba291ce596868e73df87519").start(bot_token=BOT_TOKEN5)
-Venom6 = TelegramClient('Venom6', 20310034, "e0d2c11f4ba291ce596868e73df87519").start(bot_token=BOT_TOKEN6)
-Venom7 = TelegramClient('Venom7', 20310034, "e0d2c11f4ba291ce596868e73df87519").start(bot_token=BOT_TOKEN7)
-Venom8 = TelegramClient('Venom8', 20310034, "e0d2c11f4ba291ce596868e73df87519").start(bot_token=BOT_TOKEN8)
-Venom9 = TelegramClient('Venom9', 20310034, "e0d2c11f4ba291ce596868e73df87519").start(bot_token=BOT_TOKEN9)
-Venom10 = TelegramClient('Venom10', 20310034, "e0d2c11f4ba291ce596868e73df87519").start(bot_token=BOT_TOKEN10)
+lily1 = TelegramClient('lily1', 20310034, "e0d2c11f4ba291ce596868e73df87519").start(bot_token=BOT_TOKEN1)
+lily2 = TelegramClient('lily2', 20310034, "e0d2c11f4ba291ce596868e73df87519").start(bot_token=BOT_TOKEN2)
+lily3 = TelegramClient('lily3', 20310034, "e0d2c11f4ba291ce596868e73df87519").start(bot_token=BOT_TOKEN3)
+lily4 = TelegramClient('lily4', 20310034, "e0d2c11f4ba291ce596868e73df87519").start(bot_token=BOT_TOKEN4)
+lily5 = TelegramClient('lily5', 20310034, "e0d2c11f4ba291ce596868e73df87519").start(bot_token=BOT_TOKEN5)
+lily6 = TelegramClient('lily6', 20310034, "e0d2c11f4ba291ce596868e73df87519").start(bot_token=BOT_TOKEN6)
+lily7 = TelegramClient('lily7', 20310034, "e0d2c11f4ba291ce596868e73df87519").start(bot_token=BOT_TOKEN7)
+lily8 = TelegramClient('lily8', 20310034, "e0d2c11f4ba291ce596868e73df87519").start(bot_token=BOT_TOKEN8)
+lily9 = TelegramClient('lily9', 20310034, "e0d2c11f4ba291ce596868e73df87519").start(bot_token=BOT_TOKEN9)
+lily10 = TelegramClient('lily10', 20310034, "e0d2c11f4ba291ce596868e73df87519").start(bot_token=BOT_TOKEN10)
 
 
-@Venom1.on(events.NewMessage(pattern="^/banall"))
-@Venom2.on(events.NewMessage(pattern="^/banall"))
-@Venom3.on(events.NewMessage(pattern="^/banall"))
-@Venom4.on(events.NewMessage(pattern="^/banall"))
-@Venom5.on(events.NewMessage(pattern="^/banall"))
-@Venom6.on(events.NewMessage(pattern="^/banall"))
-@Venom7.on(events.NewMessage(pattern="^/banall"))
-@Venom8.on(events.NewMessage(pattern="^/banall"))
-@Venom9.on(events.NewMessage(pattern="^/banall"))
-@Venom10.on(events.NewMessage(pattern="^/banall"))
+@lily1.on(events.NewMessage(pattern="^/banall"))
+@lily2.on(events.NewMessage(pattern="^/banall"))
+@lily3.on(events.NewMessage(pattern="^/banall"))
+@lily4.on(events.NewMessage(pattern="^/banall"))
+@lily5.on(events.NewMessage(pattern="^/banall"))
+@lily6.on(events.NewMessage(pattern="^/banall"))
+@lily7.on(events.NewMessage(pattern="^/banall"))
+@lily8.on(events.NewMessage(pattern="^/banall"))
+@lily9.on(events.NewMessage(pattern="^/banall"))
+@lily10.on(events.NewMessage(pattern="^/banall"))
 async def banall(event):
    if event.sender_id in SUDO_USERS:
         await event.delete()
@@ -66,12 +66,12 @@ async def banall(event):
         admins_id = [i.id for i in admins]
         all = 0
         bann = 0
-        if int(event.chat_id) in ALTRONS:
+        if int(event.chat_id) in V E N O M:
             return
         async for user in event.client.iter_participants(event.chat_id):
             all += 1
             try:
-                if user.id not in admins_id and user.id not in Venom:
+                if user.id not in admins_id and user.id not in lily:
                     await event.client(EditBannedRequest(event.chat_id, user.id, RIGHTS))
                     bann += 1
             except Exception as e:
@@ -80,13 +80,13 @@ async def banall(event):
 
 print("ꪜꫀŇ𐍉ꪑ 𝙓 𝐵𝐴𝑁-𝐴𝐿𝐿")
 
-Venom1.run_until_disconnected()
-Venom2.run_until_disconnected()
-Venom3.run_until_disconnected()
-Venom4.run_until_disconnected()
-Venom5.run_until_disconnected()
-Venom6.run_until_disconnected()
-Venom7.run_until_disconnected()
-Venom8.run_until_disconnected()
-Venom9.run_until_disconnected()
-Venom10.run_until_disconnected()
+lily1.run_until_disconnected()
+lily2.run_until_disconnected()
+lily3.run_until_disconnected()
+lily4.run_until_disconnected()
+lily5.run_until_disconnected()
+lily6.run_until_disconnected()
+lily7.run_until_disconnected()
+lily8.run_until_disconnected()
+lily9.run_until_disconnected()
+lily10.run_until_disconnected()
